@@ -23,9 +23,15 @@
     "@mantine/hooks": "7.11.2",
     "@next/bundle-analyzer": "^14.2.4",
     "@tabler/icons-react": "^3.6.0",
+    "@tanstack/react-query": "^5.51.16",
+    "@trpc/client": "^11.0.0-rc.467",
+    "@trpc/next": "^11.0.0-rc.467",
+    "@trpc/react-query": "^11.0.0-rc.467",
+    "@trpc/server": "^11.0.0-rc.467",
     "next": "14.2.4",
     "react": "18.3.1",
-    "react-dom": "18.3.1"
+    "react-dom": "18.3.1",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
     "@babel/core": "^7.24.7",

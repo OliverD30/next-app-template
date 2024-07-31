@@ -4860,6 +4860,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@tanstack/query-core@npm:5.51.16":
+  version: 5.51.16
+  resolution: "@tanstack/query-core@npm:5.51.16"
+  checksum: 10c0/ed0922dc320cf77e4c34dac80658555617689e3a8761965300c949561426393421c184e4cd2d4b4fedf7aca1c4d82dca8e6e91e7d776347b583f8239d56a14df
+  languageName: node
+  linkType: hard
+
+"@tanstack/react-query@npm:^5.51.16":
+  version: 5.51.16
+  resolution: "@tanstack/react-query@npm:5.51.16"
+  dependencies:
+    "@tanstack/query-core": "npm:5.51.16"
+  peerDependencies:
+    react: ^18.0.0
+  checksum: 10c0/8c702acc110cddd451f00b85d8682915550a4a0cc2a3c4051fc968a3a39f0447a6fc73b6467554017a43800de3d23872630bbb81d258a59a15c976357fe3af59
+  languageName: node
+  linkType: hard
+
 "@testing-library/dom@npm:^10.1.0":
   version: 10.1.0
   resolution: "@testing-library/dom@npm:10.1.0"
@@ -4991,6 +5009,55 @@ __metadata:
   version: 2.0.0
   resolution: "@tootallnate/once@npm:2.0.0"
   checksum: 10c0/073bfa548026b1ebaf1659eb8961e526be22fa77139b10d60e712f46d2f0f05f4e6c8bec62a087d41088ee9e29faa7f54838568e475ab2f776171003c3920858
+  languageName: node
+  linkType: hard
+
+"@trpc/client@npm:^11.0.0-rc.467":
+  version: 11.0.0-rc.467
+  resolution: "@trpc/client@npm:11.0.0-rc.467"
+  peerDependencies:
+    "@trpc/server": 11.0.0-rc.467+8f72171d6
+  checksum: 10c0/d3754fbfffdf09f745c08b39de63d5faa287b11f131ba2ec84c66285e4c28783acc8bb94523237fde9eb040cb895139a7768b9eb3cd6b28b4c3ac882c51b23ba
+  languageName: node
+  linkType: hard
+
+"@trpc/next@npm:^11.0.0-rc.467":
+  version: 11.0.0-rc.467
+  resolution: "@trpc/next@npm:11.0.0-rc.467"
+  peerDependencies:
+    "@tanstack/react-query": ^5.49.2
+    "@trpc/client": 11.0.0-rc.467+8f72171d6
+    "@trpc/react-query": 11.0.0-rc.467+8f72171d6
+    "@trpc/server": 11.0.0-rc.467+8f72171d6
+    next: "*"
+    react: ">=16.8.0"
+    react-dom: ">=16.8.0"
+  peerDependenciesMeta:
+    "@tanstack/react-query":
+      optional: true
+    "@trpc/react-query":
+      optional: true
+  checksum: 10c0/be5feb970de80be3f886a2657a0955905031c3ad8cab25a0517c56a555c988790a0b16657f678ea6d183045420a4cc6117e71477a6c0911ef2e632ec8d4ca2cb
+  languageName: node
+  linkType: hard
+
+"@trpc/react-query@npm:^11.0.0-rc.467":
+  version: 11.0.0-rc.467
+  resolution: "@trpc/react-query@npm:11.0.0-rc.467"
+  peerDependencies:
+    "@tanstack/react-query": ^5.49.2
+    "@trpc/client": 11.0.0-rc.467+8f72171d6
+    "@trpc/server": 11.0.0-rc.467+8f72171d6
+    react: ">=18.2.0"
+    react-dom: ">=18.2.0"
+  checksum: 10c0/a98e4a03906a1f43ae052579f2466bef132b2cb5915b4282a980548b271c7f5da769816345391498f5cb19d4371a7287560d36e1af5462d57c80e84278461608
+  languageName: node
+  linkType: hard
+
+"@trpc/server@npm:^11.0.0-rc.467":
+  version: 11.0.0-rc.467
+  resolution: "@trpc/server@npm:11.0.0-rc.467"
+  checksum: 10c0/6cb621d59507708c47eac57e2da5d4c19ab7a2767c89a9f27ebbef7723bf8d45b299bb7f3e029fb7b40566a6a08452e1d21b628ec1f3523b1960dac203eeb724
   languageName: node
   linkType: hard
 
@@ -12263,10 +12330,15 @@ __metadata:
     "@storybook/nextjs": "npm:^8.1.10"
     "@storybook/react": "npm:^8.1.10"
     "@tabler/icons-react": "npm:^3.6.0"
+    "@tanstack/react-query": "npm:^5.51.16"
     "@testing-library/dom": "npm:^10.1.0"
     "@testing-library/jest-dom": "npm:^6.4.6"
     "@testing-library/react": "npm:^16.0.0"
     "@testing-library/user-event": "npm:^14.5.2"
+    "@trpc/client": "npm:^11.0.0-rc.467"
+    "@trpc/next": "npm:^11.0.0-rc.467"
+    "@trpc/react-query": "npm:^11.0.0-rc.467"
+    "@trpc/server": "npm:^11.0.0-rc.467"
     "@types/jest": "npm:^29.5.12"
     "@types/node": "npm:^20.14.8"
     "@types/react": "npm:18.3.3"
@@ -12298,6 +12370,7 @@ __metadata:
     stylelint-config-standard-scss: "npm:^13.1.0"
     ts-jest: "npm:^29.1.5"
     typescript: "npm:5.5.2"
+    zod: "npm:^3.23.8"
   languageName: unknown
   linkType: soft
 
@@ -17315,5 +17388,12 @@ __metadata:
   version: 1.0.0
   resolution: "yocto-queue@npm:1.0.0"
   checksum: 10c0/856117aa15cf5103d2a2fb173f0ab4acb12b4b4d0ed3ab249fdbbf612e55d1cadfd27a6110940e24746fb0a78cf640b522cc8bca76f30a3b00b66e90cf82abe0
+  languageName: node
+  linkType: hard
+
+"zod@npm:^3.23.8":
+  version: 3.23.8
+  resolution: "zod@npm:3.23.8"
+  checksum: 10c0/8f14c87d6b1b53c944c25ce7a28616896319d95bc46a9660fe441adc0ed0a81253b02b5abdaeffedbeb23bdd25a0bf1c29d2c12dd919aef6447652dd295e3e69
   languageName: node
   linkType: hard
