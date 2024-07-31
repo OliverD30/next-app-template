@@ -5,7 +5,7 @@ import { theme } from '../theme';
 
 export const metadata = {
   title: 'Mantine Next.js template',
-  description: 'I am using Mantine with Next.js!',
+  description: 'Ii am using Mantine with Next.js!',
 };
 
 export default function RootLayout({ children }: { children: any }) {
